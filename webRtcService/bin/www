@@ -14,8 +14,8 @@ const { subType, joinMsg, talkMsg, leaveMsg, actionMsg } = require('../controlle
 const fs = require('fs');
 const path = require('path');
 const options = {
-  cert: fs.readFileSync(path.join('/Users/zhuchenliang/.cert/create-ca+3.pem')),
-  key: fs.readFileSync(path.join('/Users/zhuchenliang/.cert/create-ca+3-key.pem'))
+  // cert: fs.readFileSync(path.join('/Users/zhuchenliang/.cert/create-ca+3.pem')),
+  // key: fs.readFileSync(path.join('/Users/zhuchenliang/.cert/create-ca+3-key.pem'))
 };
 
 var port = normalizePort(process.env.PORT || '3000');
